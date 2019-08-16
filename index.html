@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,35 +9,46 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h2>CrystalsCollector!</h2>
-    <section>
-        <p>You will be given a random number at the start of the 
-            game.</p>
-        <p>There are four crystals below. By clicking on a crystal you 
-            will add a specific amount of points to your total score</p>
-        <p>You win the game by matching your total score to the random 
-            number. You lose the game if your total score goes above 
-            the random number.</p>
-        <p>The value of each crystal is hidden from you until you 
-            click on it.</p>
-        <p>Each time when the game starts, the game will change the 
-            values of each crystal.</p>
-    </section>
-    <section>
-        <span id="randomNum"></span>
-    </section>
-    <section>
-        Wins: <span id="wins"></span>
-        Losses: <span id="losses"></span>
-    </section>
-    <section>
-        <button id="btn1" class="crystalBtn" type="button" value="0"><img src="./assets/images/crystal1.jpg" height="100px" width="75px"></button>
-        <button id="btn2" class="crystalBtn" type="button" value="0"><img src="./assets/images/crystal2.jpg" height="100px" width="75px"></button>
-        <button id="btn3" class="crystalBtn" type="button" value="0"><img src="./assets/images/crystal3.jpg" height="100px" width="75px"></button>
-        <button id="btn4" class="crystalBtn" type="button" value="0"><img src="./assets/images/crystal4.jpg" height="100px" width="75px"></button>
-    </section>
+    <div class="container">
+        <header>
+            <h2>CrystalsCollector!</h2>
+        </header>
+        <section class="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</p>
+            <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </section>
+        <section class="randomNumber">
+            <span id="randomNum"></span>
+        </section>
+        <section class="winLossCounts">
+            <div>Wins: <span id="wins"></span></div>
+            <div>Losses: <span id="losses"></span></div>
+        </section>
+        <section class="crystalBtns">
+            <button id="btn1" class="crystalBtn" type="button" value="0"><img src="./assets/images/crystal1.jpg"
+                    height="93px" width="63px"></button>
+            <button id="btn2" class="crystalBtn" type="button" value="0"><img src="./assets/images/crystal2.jpg"
+                    height="93px" width="63px"></button>
+            <button id="btn3" class="crystalBtn" type="button" value="0"><img src="./assets/images/crystal3.jpg"
+                    height="93px" width="63px"></button>
+            <button id="btn4" class="crystalBtn" type="button" value="0"><img src="./assets/images/crystal4.jpg"
+                    height="93px" width="63px"></button>
+        </section>
+        <section class="totalScoreHdr">
+            <div>Your Total Score is: </div>
+        </section>
+        <section class="totalScore">
+            <div><span id="totScore">0</span></div>
+        </section>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/javascript/games.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </body>
+
 </html>
