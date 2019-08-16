@@ -7,7 +7,7 @@ body {
 
 .container {
     width: 960px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 header {
@@ -16,6 +16,7 @@ header {
     color: #ffffff;
     padding: 20px 30px 20px 30px;
     background-color: brown; 
+    margin-top: 20px;
 }
 
 .instructions {
