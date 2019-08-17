@@ -13,11 +13,8 @@ function initGame() {
     $("#totScore").text(totalSum);
     var btnId = "#btn1";
     
-    console.log("randomNumber = " + randomNumber);
-    
     for (var i = 1; i <= 4; i++) {
         var rndCrystalVal = getRndInteger(1,12);
-        console.log("Crystal"+i+" value =" + rndCrystalVal);
         btnId = "#btn" + i;
         $(btnId).attr("val",rndCrystalVal);
     }
