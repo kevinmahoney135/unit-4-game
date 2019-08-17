@@ -20,13 +20,16 @@ header {
 }
 
 .instructions {
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 320px;
     background-color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
 }
 
 p {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .crystalBtn {
@@ -42,23 +45,28 @@ p {
 .randomNumber {
     float: left;
     font-size: 24px;
-    width: 195px;
+    width: 175px;
     height: 100px;
     background-color: aqua;
     margin-top: 20px;
     margin-bottom: 20px;
-
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 40px;
 }
 
 .winLossCounts {
     float: left;
     font-size: 24px;
-    width: 195px;
+    width: 175px;
     height: 100px;
     background-color: aqua;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 40px;
 }
 
 .crystalBtns {
@@ -67,16 +75,21 @@ p {
 }
 
 .totalScoreHdr {
-    width: 200px;
-    height: 20px;
+    width: 175px;
+    height: 30px;
     background-color: aqua;
+    padding-top: 10px;
+    padding-left: 20px;
     margin-top: 20px;
 }
 
 .totalScore {
     font-size: 24px;
-    width: 200px;
+    width: 175px;
     height: 100px;
     background-color: aqua;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
