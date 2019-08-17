@@ -10,7 +10,7 @@ function getRndInteger(min, max) {
 function initGame() {
     randomNumber = getRndInteger(19,120);
     totalSum = 0;
-    
+    $("#totScore").text(totalSum);
     var btnId = "#btn1";
     
     console.log("randomNumber = " + randomNumber);
